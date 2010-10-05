@@ -2,6 +2,38 @@
 
 = Change Log =
 
+===Version 1.60 (2010-10-05)===
+
+- Added following languages: German, Italian, Russian
+
+- Fixed issues with MS Exchange GAL
+
+- Fixed crashing of Outlook 2007 on Windows 7 and Windows Vista
+
+- Fixed working directory for the OutCALL shortcut in Start Menu.
+
+- When a new contact is added into Outlook from OutCALL, OutCALL's database is automatically synced with Outlook.
+
+- Fixed adding of new contacts to Outlook 2007 when Outlook is not running.
+
+- Fixed issue with focus for the phone number text field (Dial window).
+
+- Fixed dialing a contact with only "Company" name set.
+
+- Fixed dialing issue. First time it would place the call, second time it would fail.
+
+- Fixed issue with removing of items in Call History.
+
+- Fixed issue when dialing out from Call History.
+
+- Fixed issue with Call History for placed calls. The number which was called was incorrect in the history of calls.
+
+- Fixed critical bug in MAPI interface (Outlook 2002). Invalid flags were passed to IMsgStore::OpenEntry.
+
+- Added missing Outlook dependencies required for compiling.
+
+- Project is updated to Visual Studio 2010. There are also project files for VS 2005.
+
 ===Version 1.55 (2008-07-02)===
 
 - Added support for Exchange Server.
